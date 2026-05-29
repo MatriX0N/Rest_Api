@@ -1,4 +1,4 @@
-from lab1.repository.book_repository import (
+from repository.book_repository import (
     get_all_books,
     get_book_by_id,
     add_book,

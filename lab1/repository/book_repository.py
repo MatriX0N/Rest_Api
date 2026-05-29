@@ -1,4 +1,4 @@
-from lab1.models.book_model import books_db
+from models.book_model import books_db
 from typing import List, Dict, Optional
 from uuid import UUID
 

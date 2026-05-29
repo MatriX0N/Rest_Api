@@ -2,8 +2,8 @@ from fastapi import APIRouter, HTTPException
 from typing import List, Optional
 from uuid import UUID
 
-from lab1.schemas.book_schema import BookCreate, BookResponse
-from lab1.services.book_service import (
+from schemas.book_schema import BookCreate, BookResponse
+from services.book_service import (
     list_books,
     get_book,
     create_book,
