@@ -1,0 +1,6 @@
+services:
+  lab1-api:
+    build: .
+    container_name: lab1-api
+    ports:
+      - "8000:8000"
